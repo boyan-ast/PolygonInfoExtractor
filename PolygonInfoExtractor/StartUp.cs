@@ -39,15 +39,15 @@ namespace PolygonInfoExtractor
                             }
 
                             double area = Area(allPoints);
-                            Point centerPoint = new Point(FindCentroid(allPoints, area).Item1, 
+                            Point centerPoint = new Point(FindCentroid(allPoints, area).Item1,
                                 FindCentroid(allPoints, area).Item2);
 
                             StringBuilder result = new StringBuilder();
-                            result.AppendLine("----------------------");
                             result.AppendLine("Polygon Coordinates:");
                             result.AppendLine(currentPolygon);
                             result.AppendLine("Center Point:");
-                            result.AppendLine(centerPoint.ToString());                            
+                            result.AppendLine(centerPoint.ToString());
+                            result.AppendLine("----------------------");
                             resultText.Add(result.ToString());
                         }
                     }
@@ -64,9 +64,10 @@ namespace PolygonInfoExtractor
                 }
             }
             catch (IOException e)
-            {                
+            {
                 Console.WriteLine(e.Message);
             }
+
         }
 
         public static double Area(List<Point> vertices)

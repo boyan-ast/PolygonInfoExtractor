@@ -1,37 +1,25 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27130.2024
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PolygonInfoExtractor", "GeoJsonAndCenterPointExtractor\PolygonInfoExtractor.csproj", "{CCF0BE3E-E39C-44BA-847D-E16162C60D4C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolygonInfoExtractor", "PolygonInfoExtractor\PolygonInfoExtractor.csproj", "{4EECE7A3-FB25-4A9B-B05A-ECA3FE6141AA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
-		Debug|x64 = Debug|x64
 		Release|Any CPU = Release|Any CPU
-		Release|x64 = Release|x64
-		Test|Any CPU = Test|Any CPU
-		Test|x64 = Test|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{CCF0BE3E-E39C-44BA-847D-E16162C60D4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CCF0BE3E-E39C-44BA-847D-E16162C60D4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CCF0BE3E-E39C-44BA-847D-E16162C60D4C}.Debug|x64.ActiveCfg = Test|x64
-		{CCF0BE3E-E39C-44BA-847D-E16162C60D4C}.Debug|x64.Build.0 = Test|x64
-		{CCF0BE3E-E39C-44BA-847D-E16162C60D4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CCF0BE3E-E39C-44BA-847D-E16162C60D4C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CCF0BE3E-E39C-44BA-847D-E16162C60D4C}.Release|x64.ActiveCfg = Release|x64
-		{CCF0BE3E-E39C-44BA-847D-E16162C60D4C}.Release|x64.Build.0 = Release|x64
-		{CCF0BE3E-E39C-44BA-847D-E16162C60D4C}.Test|Any CPU.ActiveCfg = Test|Any CPU
-		{CCF0BE3E-E39C-44BA-847D-E16162C60D4C}.Test|Any CPU.Build.0 = Test|Any CPU
-		{CCF0BE3E-E39C-44BA-847D-E16162C60D4C}.Test|x64.ActiveCfg = Test|x64
-		{CCF0BE3E-E39C-44BA-847D-E16162C60D4C}.Test|x64.Build.0 = Test|x64
+		{4EECE7A3-FB25-4A9B-B05A-ECA3FE6141AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EECE7A3-FB25-4A9B-B05A-ECA3FE6141AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EECE7A3-FB25-4A9B-B05A-ECA3FE6141AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EECE7A3-FB25-4A9B-B05A-ECA3FE6141AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {54A7262B-7CED-4815-91B2-505B70778BB2}
+		SolutionGuid = {94FB8E18-BA3A-4994-9C09-A21C69E16C00}
 	EndGlobalSection
 EndGlobal
